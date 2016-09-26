@@ -1,0 +1,83 @@
+<style>
+	h1{
+		font-size:100px;
+	}
+	body {
+		background-color:lightblue;
+		font-family:Comic Sans MS;
+	}
+	div#content {
+		width:auto;
+		padding:25px;
+		font-size:160%;
+		overflow-y:scroll;
+		overflow-x:hidden;
+		line-height:40px;
+	}
+	div#sidenav {
+		line-height:50px;
+		background-color:lightgreen;
+		height:auto;
+		width:170px;
+		float:left;
+		padding:-25px;
+		margin:8px;
+		position:relative;
+		top:-15px;
+		left:-15px;
+	
+	}
+	h2 {
+		font-size: 40px;
+	}
+	ul#act, ul#lit, ul#prog{
+		text-align:left;
+	}
+	ul#act li, ul#lit li, ul#prog li{
+		line-height:200px;
+		list-style-type:none;
+	}
+	ul#act li a, ul#lit li a, ul#prog li a{
+		color:black;
+		text-decoration:none;
+		
+	}
+	ul#act li a:hover, ul#lit li a:hover, ul#prog li a:hover{
+		color:red;
+	}
+	div.incorrect {
+		color:red;
+		font-size:120px
+	}
+	span.nname{
+		color:green;
+	}
+	p {
+		
+	}
+	ul#menu li{
+		display:inline;
+		font-size:120%;
+	}
+	ul#menu li a{
+		background-color:black;
+		color:white;
+		padding:17px 20px;
+		border-radius:10px 10px 0px 0px;
+		text-decoration:none;
+	}
+	ul#menu li a:hover{
+		background-color:lightblue;
+		color:black;
+	}
+	dl#options dt{
+		line-height:60px;
+	}
+	span.req{
+		color:red;
+	}
+	a#load{
+		text-decoration:none;
+		color:black;
+	}
+</style>
